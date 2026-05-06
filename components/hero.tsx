@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section className="pt-[env(safe-area-inset-top)] w-full min-h-screen flex items-center justify-center py-16 bg-gradient-to-b from-background via-secondary to-background relative overflow-hidden">
+    <section className="pt-4 sm:pt-6 mt-[env(safe-area-inset-top)] w-full min-h-screen flex items-center justify-center py-16 bg-gradient-to-b from-background via-secondary to-background relative overflow-hidden">
       {/* Decorative leaf elements */}
       <div className="absolute top-0 right-0 w-96 h-96 opacity-5 pointer-events-none">
         <svg viewBox="0 0 100 100" className="w-full h-full text-accent">
