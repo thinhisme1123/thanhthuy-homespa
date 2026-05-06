@@ -34,7 +34,7 @@ export function Contact() {
             <p className="text-muted-foreground mb-6">
               Chat nhanh chóng và đặt lịch hẹn
             </p>
-            <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 w-full px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors">
+            <a href="https://zalo.me/0765367291" target="_blank" rel="noopener noreferrer" className="inline-block mt-6 w-full px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors">
               Nhắn tin Zalo
             </a>
           </div>
@@ -52,7 +52,7 @@ export function Contact() {
             <p className="text-muted-foreground mb-6">
               Xem hình ảnh và nhận cập nhật mới nhất
             </p>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="inline-block w-full px-6 py-3 bg-blue-700 text-white font-medium rounded-full hover:bg-blue-800 transition-colors">
+            <a href="https://web.facebook.com/share/1DoFRK3NBc/?mibextid=wwXIfr&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer" className="inline-block w-full px-6 py-3 bg-blue-700 text-white font-medium rounded-full hover:bg-blue-800 transition-colors">
               Theo dõi Facebook
             </a>
           </div>
