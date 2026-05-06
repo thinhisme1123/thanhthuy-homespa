@@ -1,13 +1,13 @@
 export function Hero() {
   return (
-    <section className="w-full min-h-screen flex items-center justify-center py-16 bg-gradient-to-b from-background via-secondary to-background relative overflow-hidden">
+    <section className="pt-[env(safe-area-inset-top)] w-full min-h-screen flex items-center justify-center py-16 bg-gradient-to-b from-background via-secondary to-background relative overflow-hidden">
       {/* Decorative leaf elements */}
       <div className="absolute top-0 right-0 w-96 h-96 opacity-5 pointer-events-none">
         <svg viewBox="0 0 100 100" className="w-full h-full text-accent">
           <path d="M50 10 Q70 30 70 50 Q70 70 50 80 Q30 70 30 50 Q30 30 50 10" fill="currentColor" />
         </svg>
       </div>
-      
+
       <div className="w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left column - Text */}
