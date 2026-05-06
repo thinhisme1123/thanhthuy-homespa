@@ -1,6 +1,10 @@
 export function Hero() {
   return (
-    <section className="pt-4 sm:pt-6 mt-[env(safe-area-inset-top)] w-full min-h-screen flex items-center justify-center py-16 bg-gradient-to-b from-background via-secondary to-background relative overflow-hidden">
+    <section 
+      id="hero" 
+      // Đã thay đổi class ở dòng dưới này: bỏ py-16, thêm pt-32 (cho mobile) và md:pt-40 (cho PC), giữ pb-16
+      className="w-full min-h-screen flex items-center justify-center pt-32 md:pt-40 pb-16 bg-gradient-to-b from-background via-secondary to-background relative overflow-hidden"
+    >
       {/* Decorative leaf elements */}
       <div className="absolute top-0 right-0 w-96 h-96 opacity-5 pointer-events-none">
         <svg viewBox="0 0 100 100" className="w-full h-full text-accent">
@@ -25,17 +29,17 @@ export function Hero() {
               Nơi làn da được yêu thương. Dịch vụ chăm sóc da cao cấp với dược mỹ phẩm chính hãng và sự tận tâm của chuyên gia da liễu.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="px-8 py-3 bg-foreground text-background font-medium rounded-full hover:bg-accent hover:text-foreground transition duration-300">
+              <button className="px-8 py-3 bg-foreground text-background font-medium rounded-full hover:bg-accent hover:text-foreground transition duration-300 shadow-md hover:shadow-lg">
                 Đặt lịch ngay
               </button>
-              <button className="px-8 py-3 border-2 border-accent text-accent hover:bg-accent hover:text-primary transition duration-300 rounded-full font-medium">
+              <button className="px-8 py-3 border-2 border-accent text-accent hover:bg-accent hover:text-primary transition duration-300 rounded-full font-medium shadow-md hover:shadow-lg">
                 Tìm hiểu thêm
               </button>
             </div>
           </div>
 
           {/* Right column - Image */}
-          <div className="relative">
+          <div className="relative mt-8 md:mt-0">
             <div className="rounded-3xl overflow-hidden shadow-2xl bg-muted aspect-video">
               <img
                 src="/images/banner.jpg"
